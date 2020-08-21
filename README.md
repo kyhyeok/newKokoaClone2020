@@ -198,11 +198,19 @@
 
 # CLONING TIME
 
-1 BEM
+1. BEM
 
 - https://css-tricks.com/bem-101/
 - Block Element Modifier라고 불린다. 사용하면 있어 보인다.
 
-2. css
+2. border Box
+
+- css box의 width 200px 이 있다고 가정하고 padding-left 50px을 가하면 box의 width 250px이 된다.
+- 그 이유는 width을 200px 설정했기 때문에 200ox을 유지하려고 하기 때문이다.
+- 나는 200px을 원했지만 padding으로 인해 내가 원했던 box 크기 크게 적용이 된다. width + padding
+- 이 때 box-sizing: border-box를 하면 padding을 줘도 신경쓰지 말고 box 크기를 늘리지 말라고 적용하는 것이다.
+
+3. css
 
 - justify-content space-between은 다른 자식 element들이 width을 가지고 있으면 원하는 위치가 있지 않을 수 있다.
+- 검색엔진 구글도 검색할 때 navigation을 찾아서 ul의 li안에 있는 link를 가져오게끔 설정이 되어 있다.
