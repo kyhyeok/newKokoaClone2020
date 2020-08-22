@@ -9,3 +9,26 @@
   color: #fff;
   font-weight: 600;
 }
+
+.dot__badge {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+}
+
+.nav__badge {
+  left: 35px;
+  bottom: 30px;
+}
+
+.more__badge {
+  top: -8px;
+  right: -5px;
+}
