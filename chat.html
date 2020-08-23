@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코코아 클론 - 수다</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">수다</h1>
+      </div>
+      <div class="alt-header__column">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-bars fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        토요일, 2020년 8월 34일
+      </div>
+      <div class="message-row">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">존 폰 노이만</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">22:02</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Bye~</span>
+            <span class="message__time">22:03</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력해주세요." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>휴대폰으로만 접속하세요</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/5486e4f1b9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
